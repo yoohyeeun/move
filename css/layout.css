@@ -540,12 +540,12 @@ h1{display: none;}
   width: 20.7rem;
   position: absolute;
   bottom: 0;
-  left: 10rem;
+  left: -7rem;
 }
 .s8_list span{
   position: absolute;
-  bottom: 16rem;
-  left: 23rem;
+  bottom: 5rem;
+  left: 10rem;
   width: 9rem;
   height: 5.4rem;
   line-height: 5.4rem;
@@ -574,7 +574,7 @@ h1{display: none;}
 .s10_list.mb img:last-child{
   position: absolute;
   top: -6rem;
-  left: 15rem;
+  left: 10rem;
 }
 
 /* s10 animation */
