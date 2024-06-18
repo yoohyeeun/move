@@ -53,14 +53,13 @@ p.txt{
 .mb img{width: 22.3rem;}
 .mb.ct{
   position: relative;
-  padding: 0 4rem;
   height: 52rem;
 }
 .s7_list.mb img:last-child,
 .s9_list.mb img:last-child{
   position: absolute;
   top: 6rem;
-  left: 15rem;
+  left: 25%;
 }
 
 .swiper{

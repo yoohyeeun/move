@@ -148,7 +148,7 @@ header .rel{
 h1{display: none;}
 #section0 .tit_caharactor img{position: absolute;}
 #section0 .tit_caharactor>img:nth-of-type(1){
-  right: 31rem;
+  right: 70%;
   bottom: 17rem;
   animation: caharactor_ani1 1.5s infinite linear;
   animation-delay: 0.3s;
@@ -248,8 +248,8 @@ h1{display: none;}
 }
 
 /* s1 animation */
-/* #section1 .tit_wrap > *{opacity: 0;} */
-/* #section1 .s1_list{opacity: 0;} */
+#section1 .tit_wrap > *{opacity: 0;}
+#section1 .s1_list{opacity: 0;}
 
 /* Section 2____________________ */
 .s2_list{
@@ -366,19 +366,19 @@ h1{display: none;}
 .s3_list p:nth-child(odd){background-color: #51A1FF;}
 .s3_list p:nth-of-type(1){
   top: 7rem;
-  left: -7rem;
+  left: -1.5rem;
 }
 .s3_list p:nth-of-type(2){
   top: 1rem;
-  right: -4rem;
+  right: -1.5rem;
 }
 .s3_list p:nth-of-type(3){
   bottom: 10rem;
-  right: -5rem;
+  right: -1.5rem;
 }
 .s3_list p:nth-of-type(4){
   bottom: 7rem;
-  left: -6rem;
+  left: -1.5rem;
   width: 12.2rem;
 }
 
@@ -475,7 +475,7 @@ h1{display: none;}
 .s5_list img{
   display: block;
   margin: 0 auto 4.5rem;
-  width: 30rem;
+  width: 28rem;
 }
 .s5_list p{
   font-size: 2rem;
@@ -484,7 +484,7 @@ h1{display: none;}
 }
 .s5_list p b{font-size: 2.4rem;}
 .s5_list p b:last-of-type{color: #FFB800;}
-.s5_list p em{font-size: 1.3rem;}
+.s5_list p em{display: none;}
 
 .mySwiper1{margin-bottom: 5rem;}
 .mySwiper1 .swiper-slide{
@@ -501,6 +501,7 @@ h1{display: none;}
 .s5_list p{opacity: 0;}
 
 /* Section 6____________________ */
+#section6{padding: 10rem 0}
 #section6 .swiper{
   height: 30.5rem;
   margin: 2rem auto;
@@ -521,6 +522,8 @@ h1{display: none;}
 .s6_list .swiper{opacity: 0;}
 
 /* Section 7____________________ */
+#section7 .tit span{display: none;}
+
 /* s7 animation */
 #section7 .tit_wrap h2{opacity: 0;}
 #section7 .tit_wrap .btn{opacity: 0;}
@@ -574,7 +577,7 @@ h1{display: none;}
 .s10_list.mb img:last-child{
   position: absolute;
   top: -6rem;
-  left: 10rem;
+  left: 25%;
 }
 
 /* s10 animation */
