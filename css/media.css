@@ -6,6 +6,20 @@
   header.mob_olny{display: block;}
   header{background-color: rgba(199, 219, 183, 0.5);}
 
+  #section7 .rel,
+  #section8 .rel,
+  #section9 .rel,
+  #section10 .rel{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  #section7 .rel,
+  #section9 .rel{flex-direction: row-reverse;}
+
+  .mb img{width: 22.3rem;}
+
   /* 0 */
   #section0{position: relative;}
   #section0 div.logo{

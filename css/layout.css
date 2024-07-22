@@ -155,14 +155,14 @@ h1{display: none;}
 }
 #section0 .tit_caharactor>img:nth-of-type(2){
   right: 10rem;
-  top: 31rem;
+  top: 22rem;
   width: 14.1rem;
   animation: caharactor_ani2 1.5s infinite linear;
   animation-delay: 0.6s;
 }
 #section0 .tit_logo{
   position: absolute;
-  right: 10rem;
+  right: 6rem;
   bottom: 6rem;
 }
 #section0 .tit_logo img{
@@ -192,15 +192,15 @@ h1{display: none;}
 @keyframes caharactor_ani2{
   0%{
     transform: rotateX(0);
-    top: 31rem;
+    top: 22rem;
   }
   50%{
     transform: rotateX(20deg);
-    top: 33rem;
+    top: 25rem;
   }
   100%{
     transform: rotate(0);
-    top: 31rem;
+    top: 22rem;
   }
 }
 

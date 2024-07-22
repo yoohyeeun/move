@@ -80,32 +80,37 @@ let funcObj={
       opacity: 1,
       y: -30,
     });
+
     tl.to("#section5 .dsk_only>div .ss2", {
       opacity: 1,
       y: -30,
     });
-    tl.to("#section5 .dsk_only .ms2", {
-      opacity: 1,
-      y: -30,
-    });
-    tl.to("#section5 .dsk_only>div .ss3", {
-      opacity: 1,
-      y: -30,
-    });
-
+    
     tl.to(".mySwiper1", {
       opacity: 1,
       y: -30,
     });
     tl.to(".ss1 div span", {
       opacity: 1,
-      stagger: 0.3,
+      // stagger: 0.3,
       y: -30,
     });
+
+    tl.to("#section5 .dsk_only .ms2", {
+      opacity: 1,
+      y: -30,
+    });
+
     tl.to(".s5_list img", {
       opacity: 1,
       y: -30,
     });
+
+    tl.to("#section5 .dsk_only>div .ss3", {
+      opacity: 1,
+      y: -30,
+    });
+
     tl.to(".s5_list p", {
       opacity: 1,
       y: -30,
